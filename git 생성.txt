@@ -9,3 +9,12 @@
 5. git remote -v 입력하면, 우리가 추가한 원격 레포지토리 주소가 나오고 우리는 이걸 origin이라고 부름
 6. 이제 현재 로컬 master 브랜치에 커밋한 내용을 origin 이라는 원격 레포지토리에 푸시! push!
    git push -u origin master   (to origin from master의 의미!)
+
+
+
+
+
+----- revert
+이전 버전으로 되돌리기! 취소한것도 흔적을 남김! revert 한것도 흔적을 남김
+아예 다 지우는건 오른쪽클릭하고 reset 하면 되는데, 그건 개발환경에서 히스토리자체를 날리는거기 때문에
+사용을 잘 하지 않고 revert를 주로 사용
