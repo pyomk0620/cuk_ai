@@ -1,0 +1,11 @@
+1. Github에서 + 신규 레포지토리 생성하기
+2. local VS Code에서 새로운 디렉토리 생성한 뒤에 git init
+   (원래 내스타일은 생성한 신규 레포지토리를 git clone 하는건데, 이번에는 원격, 로컬에 각각 만들고나서 그걸 연결할거임)
+3. 코드 생성 후에 git add, git commit 혹은 그냥 마우스 액션으로 커밋생성
+4. 로컬과 원격 연결! 로컬에 원격 레포지토리의 주소를 추가하기
+   git remote add origin 깃허브 레포지토리 주소 (관습적으로 원격은 origin이라고 사용)
+   git remote add origin https://github.com/pyomk0620/cuk_ai_14weeks.git
+
+5. git remote -v 입력하면, 우리가 추가한 원격 레포지토리 주소가 나오고 우리는 이걸 origin이라고 부름
+6. 이제 현재 로컬 master 브랜치에 커밋한 내용을 origin 이라는 원격 레포지토리에 푸시! push!
+   git push -u origin master   (to origin from master의 의미!)
